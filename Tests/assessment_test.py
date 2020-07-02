@@ -15,12 +15,12 @@ def test_one():
 #assert python1.two("xxbertyy") == ""
 #    assert python1.two("xxbeRTyy") == ""
 
-#def test_three():
-#    assert python1.three(3) == "fizz"
-#    assert python1.three(10) == "buzz"
-#    assert python1.three(15) == "fizzbuzz"
-#    assert python1.three(8) == "null"
-#    assert python1.three(75) == "fizzbuzz"
+def test_three():
+    assert python1.three(3) == "fizz"
+    assert python1.three(10) == "buzz"
+    assert python1.three(15) == "fizzbuzz"
+    assert python1.three(8) == "null"
+    assert python1.three(75) == "fizzbuzz"
 
 #def test_four():
 #    assert python1.four("55 72 86") == 14
